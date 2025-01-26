@@ -1,24 +1,12 @@
-<!DOCTYPE html><html lang=en><head><meta charset=UTF-8><meta content="width=device-width,initial-scale=1" name=viewport><title>Coming Soon</title><script src=https://cdn.tailwindcss.com></script><style>.mix-blend{mix-blend-mode:difference}</style></head><body class="bg-black min-h-screen"><main class="w-full z-10 max-w-4xl md:px-8 min-w-0 mx-auto pt-4 px-6"><div style=width:100%;max-width:600px;aspect-ratio:1/1;margin:auto;position:relative><div class="w-full z-10 -translate-y-1/2 absolute font-bold mix-blend pointer-events-none select-none text-center text-white top-1/2"><h1 class="mx-auto indent-[0.3em] text-[min(9vw,3.2em)] tracking-[0.3em]">COMING SOON</h1><span class=text-[1.2em]>Something amazing is in the works</span></div><canvas class="w-full cursor-grab h-full" height=1200 id=cobe style="contain:size layout paint;opacity:1;transition:opacity 1s;border-radius:0" width=1200></canvas></div></main><script type=module>import createGlobe from 'https://cdn.skypack.dev/cobe'
-
-        let phi = 0
-
-        createGlobe(document.getElementById('cobe'), {
-            devicePixelRatio: 2,
-            width: 1200,
-            height: 1200,
-            phi: 0,
-            theta: 0,
-            dark: 1,
-            diffuse: 1.2,
-            scale: 1,
-            mapSamples: 16000,
-            mapBrightness: 6,
-            baseColor: [0.3, 0.3, 0.3],
-            markerColor: [0.1, 0.8, 1],
-            glowColor: [1, 1, 1],
-            markers: [],
-            onRender: (state) => {
-                state.phi = phi
-                phi += 0.005
+<!DOCTYPE html><html lang="en-gb"><head><meta charset="utf-8"><meta http-equiv="X-UA-Compatible" content="IE=edge"><meta name="viewport" content="width=device-width,initial-scale=1"><title>Blog</title><meta name="generator" content="Publii Open-Source CMS for Static Site"><link rel="canonical" href="https://3Samourai.github.io/"><link rel="alternate" type="application/atom+xml" href="https://3Samourai.github.io/feed.xml"><link rel="alternate" type="application/json" href="https://3Samourai.github.io/feed.json"><meta property="og:title" content="Blog"><meta property="og:site_name" content="Blog"><meta property="og:description" content=""><meta property="og:url" content="https://3Samourai.github.io/"><meta property="og:type" content="website"><link rel="stylesheet" href="https://3Samourai.github.io/assets/css/style.css?v=94220f119044674b7663d7c550454968"><script type="application/ld+json">{"@context":"http://schema.org","@type":"Organization","name":"Blog","url":"https://3Samourai.github.io/"}</script><noscript><style>img[loading] {
+                    opacity: 1;
+                }</style></noscript></head><body class="home-template"><header class="top js-header"><a class="logo" href="https://3Samourai.github.io/">Blog</a></header><main><div class="hero hero--noimage"><header class="hero__content hero__content--centered"><div class="wrapper"><h1>Discover My Blogging Journey: Adventures, Travels, and Hobbies!</h1><p>Join me as I share captivating stories, travel experiences, and dive into the joys of my favorite hobbies.</p><p><a href="#" class="btn">Read more</a></p></div></header></div><div class="wrapper feed"></div></main><footer class="footer"><div class="wrapper"><div class="footer__copyright"><p>2025 Samourai</p></div><button onclick="backToTopFunction()" id="backToTop" class="footer__bttop" aria-label="Back to top" title="Back to top"><svg width="20" height="20"><use xlink:href="https://3Samourai.github.io/assets/svg/svg-map.svg#toparrow"/></svg></button></div></footer><script defer="defer" src="https://3Samourai.github.io/assets/js/scripts.min.js?v=ffcbea6c02c8178d10092962b235a5b0"></script><script>window.publiiThemeMenuConfig={mobileMenuMode:'sidebar',animationSpeed:300,submenuWidth: 'auto',doubleClickTime:500,mobileMenuExpandableSubmenus:true,relatedContainerForOverlayMenuSelector:'.top'};</script><script>var images = document.querySelectorAll('img[loading]');
+        for (var i = 0; i < images.length; i++) {
+            if (images[i].complete) {
+                images[i].classList.add('is-loaded');
+            } else {
+                images[i].addEventListener('load', function () {
+                    this.classList.add('is-loaded');
+                }, false);
             }
-        })</script></body></html>
+        }</script></body></html>

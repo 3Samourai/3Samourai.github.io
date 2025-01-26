@@ -1,0 +1,3 @@
+User-agent: *
+Disallow:
+Sitemap: https://3Samourai.github.io/sitemap.xml
